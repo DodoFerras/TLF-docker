@@ -31,4 +31,4 @@ CMD ["inifile=/home/ts3/data/ts3server.ini", "logpath=/home/ts3/data/logs","lice
 VOLUME ["/home/ts3/data"]
 
 # Expose the Standard TS3 port, for files, for serverquery
-EXPOSE 9987/udp 30033 10011
+EXPOSE 9987/udp 30033 10011 10012
